@@ -32,7 +32,7 @@ export default function SideFiltering({
           >
             All
           </button>
-          {cuisines.slice(0, 5).map((cuisine) => (
+          {cuisines.slice(0, 10).map((cuisine) => (
             <button
               key={cuisine}
               className={`px-3 py-1 rounded-full text-sm font-medium border ${selectedCuisine === cuisine ? 'bg-orange-500 text-white' : 'bg-gray-100 text-gray-700'} hover:bg-orange-100`}
