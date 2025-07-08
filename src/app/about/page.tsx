@@ -60,13 +60,13 @@ export default function About() {
                 Our Mission
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed mb-6">
-                At RecipeHub, we believe that cooking should be accessible, enjoyable, and inspiring for everyone. 
+                {`At RecipeHub, we believe that cooking should be accessible, enjoyable, and inspiring for everyone. 
                 Whether you are a seasoned chef or just starting your culinary journey, we are here to help you 
-                discover amazing recipes and create memorable meals.
+                discover amazing recipes and create memorable meals.`}
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Our platform brings together a diverse collection of recipes from different cultures and cuisines, 
-                making it easy for you to explore new flavors and techniques from the comfort of your kitchen.
+                {`Our platform brings together a diverse collection of recipes from different cultures and cuisines, 
+                making it easy for you to explore new flavors and techniques from the comfort of your kitchen.`}
               </p>
             </motion.div>
             <motion.div 
@@ -85,7 +85,7 @@ export default function About() {
                   >
                     🍳
                   </motion.div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-6">Why Choose RecipeHub?</h3>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-6">{`Why Choose RecipeHub?`}</h3>
                   <ul className="text-left space-y-4 text-gray-600">
                     <motion.li 
                       className="flex items-center space-x-3"
@@ -325,7 +325,7 @@ export default function About() {
             transition={{ duration: 0.8, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            Have questions, suggestions, or want to share your favorite recipe? We would love to hear from you!
+            {`Have questions, suggestions, or want to share your favorite recipe? We would love to hear from you!`}
           </motion.p>
           <motion.div 
             className="bg-white rounded-3xl shadow-2xl p-10 border border-gray-100"
@@ -346,7 +346,7 @@ export default function About() {
                     viewport={{ once: true }}
                   >
                     <span className="text-2xl">📧</span>
-                    <span>hello@recipehub.com</span>
+                    <span>{`hello@recipehub.com`}</span>
                   </motion.p>
                   <motion.p 
                     className="flex items-center space-x-3"
@@ -366,7 +366,7 @@ export default function About() {
                     viewport={{ once: true }}
                   >
                     <span className="text-2xl">📍</span>
-                    <span>123 Recipe Street, Food City, FC 12345</span>
+                    <span>{`123 Recipe Street, Food City, FC 12345`}</span>
                   </motion.p>
                 </div>
               </div>
@@ -391,7 +391,7 @@ export default function About() {
                     viewport={{ once: true }}
                   >
                     <span className="text-2xl">📷</span>
-                    <span>Instagram: @recipehub</span>
+                    <span>{`Instagram: @recipehub`}</span>
                   </motion.p>
                   <motion.p 
                     className="flex items-center space-x-3"
@@ -401,7 +401,7 @@ export default function About() {
                     viewport={{ once: true }}
                   >
                     <span className="text-2xl">🐦</span>
-                    <span>Twitter: @recipehub</span>
+                    <span>{`Twitter: @recipehub`}</span>
                   </motion.p>
                   <motion.p 
                     className="flex items-center space-x-3"
@@ -411,7 +411,7 @@ export default function About() {
                     viewport={{ once: true }}
                   >
                     <span className="text-2xl">📺</span>
-                    <span>YouTube: RecipeHub Channel</span>
+                    <span>{`YouTube: RecipeHub Channel`}</span>
                   </motion.p>
                 </div>
               </div>
@@ -432,11 +432,11 @@ export default function About() {
           </motion.div>
           <h3 className="text-3xl font-bold mb-6">RecipeHub</h3>
           <p className="text-gray-400 mb-8 text-lg">
-            Making cooking accessible and enjoyable for everyone.
+            {`Making cooking accessible and enjoyable for everyone.`}
           </p>
           <div className="border-t border-gray-800 pt-8">
             <p className="text-gray-400">
-              © 2024 RecipeHub. All rights reserved.
+             {` © 2024 RecipeHub. All rights reserved.`}
             </p>
           </div>
         </div>
