@@ -2,10 +2,11 @@
 
   import { useState, useEffect } from 'react';
   import { useParams, useRouter } from 'next/navigation';
-  // import Image from 'next/image';
+  import Image from 'next/image';
   import { Recipe } from '@/types/recipe';
   import { fetchRecipeById } from '@/lib/api';
   import Header from '@/components/Header';
+
   export default function RecipeDetail() {
     const params = useParams();
     const router = useRouter();
@@ -101,7 +102,6 @@
                 src={recipe.image}
                 alt={recipe.name}
                 fill
-                
                 className="object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent"></div>

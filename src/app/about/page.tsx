@@ -165,7 +165,7 @@ export default function About() {
               </motion.div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Smart Search</h3>
               <p className="text-gray-600 leading-relaxed">
-                Find exactly what you're looking for with our advanced search and filtering system.
+                Find exactly what you are looking for with our advanced search and filtering system.
               </p>
             </motion.div>
             <motion.div 
@@ -325,7 +325,7 @@ export default function About() {
             transition={{ duration: 0.8, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            Have questions, suggestions, or want to share your favorite recipe? We'd love to hear from you!
+            Have questions, suggestions, or want to share your favorite recipe? We would love to hear from you!
           </motion.p>
           <motion.div 
             className="bg-white rounded-3xl shadow-2xl p-10 border border-gray-100"

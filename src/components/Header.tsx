@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation';
 import { motion } from 'framer-motion';
 
 export default function Header() {
-  const router = useRouter();
+  // const router = useRouter();
 
   return (
     <motion.header 
