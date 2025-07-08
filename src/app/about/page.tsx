@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Header from '@/components/Header';
-
+import Image from 'next/image';
 export default function About() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-orange-50">
@@ -220,10 +220,12 @@ export default function About() {
             transition={{ duration: 1 }}
             viewport={{ once: true }}
           >
-            <img
+            <Image
               src="/about2.jpg"
               alt="Delicious food spread"
               className="w-full h-96 object-cover rounded-3xl shadow-2xl"
+              width={300}
+              height={300}
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent rounded-3xl"></div>
             <div className="absolute bottom-8 left-8 text-white">
