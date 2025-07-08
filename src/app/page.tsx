@@ -110,18 +110,10 @@ export default function Home() {
       <Header />
       
       {/* Hero Section */}
-      <section className="relative py-20 overflow-hidden">
-        <div className="absolute inset-0">
-          <img
-            src="/food.jpg"
-            alt="Delicious food background"
-            className="w-full h-full object-cover object-center"
-            style={{ filter: 'brightness(0.75) blur(1px)' }}
-          />
-          <div className="absolute inset-0 from-orange-600/70 via-red-600/60 to-black/60" />
-        </div>
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-orange-500">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-pulse drop-shadow-lg">
+      <section className="bg-gradient-to-r from-orange-500 to-red-500 text-white py-20 relative overflow-hidden">
+        <div className="absolute inset-0 bg-orange-500 bg-opacity-10"></div>
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-pulse">
             Discover Amazing Recipes
           </h1>
           <p className="text-xl md:text-2xl mb-10 opacity-90 leading-relaxed drop-shadow">

@@ -61,7 +61,7 @@ export default function About() {
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed mb-6">
                 At RecipeHub, we believe that cooking should be accessible, enjoyable, and inspiring for everyone. 
-                Whether you're a seasoned chef or just starting your culinary journey, we're here to help you 
+                Whether you are a seasoned chef or just starting your culinary journey, we are here to help you 
                 discover amazing recipes and create memorable meals.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
