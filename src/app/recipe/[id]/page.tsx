@@ -2,11 +2,10 @@
 
   import { useState, useEffect } from 'react';
   import { useParams, useRouter } from 'next/navigation';
-  import Image from 'next/image';
+  // import Image from 'next/image';
   import { Recipe } from '@/types/recipe';
   import { fetchRecipeById } from '@/lib/api';
   import Header from '@/components/Header';
-
   export default function RecipeDetail() {
     const params = useParams();
     const router = useRouter();

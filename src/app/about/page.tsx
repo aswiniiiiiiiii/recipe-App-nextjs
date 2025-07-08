@@ -12,11 +12,13 @@ export default function About() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-orange-500 to-red-500 opacity-90"></div>
         <div className="absolute inset-0">
-          <img
-            src="/about1.jpeg"
+          <Image
+            src="/about1.jpeg"  
             alt="Cooking background"
             className="w-full h-full object-cover"
             style={{ filter: 'brightness(0.3)' }}
+            width={300}
+            height={300}
           />
         </div>
         <motion.div 
